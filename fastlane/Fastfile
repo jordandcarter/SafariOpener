@@ -4,9 +4,10 @@ platform :ios do
   desc "Run UI Tests"
   lane :run_ui_tests do
     scan(
-      scheme: "SafariOpenerUITests",
+      scheme: "SafariOpener",
+      project: "SafariOpener.xcodeproj",
       devices: [], # Clear the devices array to avoid conflicts with the destination parameter
-      destination: "id=B13460AD-AB89-487A-B342-2977DF298BEB",
+      destination: "id=22BB06CC-21D8-4367-B0AE-6907F9C9EEDD",
       clean: true,
       output_directory: "./fastlane/test_output",
       output_types: "html,junit",
