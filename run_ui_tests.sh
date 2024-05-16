@@ -44,6 +44,11 @@ else
   exit 1
 fi
 
+echo "Create fastlane/test_output directory"
+mkdir -p fastlane/test_output
+
+ls -lah *
+
 # Run the Fastlane lane
 bundle install
 bundle exec fastlane run_ui_tests
