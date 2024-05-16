@@ -21,7 +21,7 @@ platform :ios do
     scan(
       scheme: "SafariOpener",
       devices: [], # Clear the devices array to avoid conflicts with the destination parameter
-      destination: "id=B7A5634C-B36A-4671-92E9-DEAAFC773133",
+      destination: "id=7C46688D-83B1-42CC-8EAF-83F87C7963CE",
       clean: true
     )
   end
