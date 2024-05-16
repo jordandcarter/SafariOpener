@@ -7,7 +7,7 @@ platform :ios do
       scheme: "SafariOpener",
       project: "SafariOpener.xcodeproj",
       devices: [], # Clear the devices array to avoid conflicts with the destination parameter
-      destination: "id=22BB06CC-21D8-4367-B0AE-6907F9C9EEDD",
+      destination: "id=7B9194BE-A1C4-4895-9332-459BD67773D1",
       clean: true,
       output_directory: "./fastlane/test_output",
       output_types: "html,junit",
