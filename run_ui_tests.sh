@@ -45,4 +45,5 @@ else
 fi
 
 # Run the Fastlane lane
+bundle install
 bundle exec fastlane run_ui_tests
