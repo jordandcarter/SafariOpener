@@ -8,12 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func openSafari(_ sender: UIButton) {
+        if let url = URL(string: "https://www.apple.com") {
+            UIApplication.shared.open(url)
+        }
+    }
 }
-

@@ -13,7 +13,25 @@
 		17B3C6172BF57B1D009533FC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6162BF57B1D009533FC /* Base */; };
 		17B3C6192BF57B1E009533FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6182BF57B1E009533FC /* Assets.xcassets */; };
 		17B3C61C2BF57B1E009533FC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C61B2BF57B1E009533FC /* Base */; };
+		17B3C62A2BF57DB1009533FC /* SafariOpenerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B3C6292BF57DB1009533FC /* SafariOpenerUITests.swift */; };
+		17B3C62C2BF57DB1009533FC /* SafariOpenerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B3C62B2BF57DB1009533FC /* SafariOpenerUITestsLaunchTests.swift */; };
+		17B3C63A2BF58358009533FC /* report.html in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6322BF58358009533FC /* report.html */; };
+		17B3C63B2BF58358009533FC /* report.junit in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6332BF58358009533FC /* report.junit */; };
+		17B3C63C2BF58358009533FC /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6352BF58358009533FC /* Appfile */; };
+		17B3C63D2BF58358009533FC /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6362BF58358009533FC /* Fastfile */; };
+		17B3C63E2BF58358009533FC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6372BF58358009533FC /* README.md */; };
+		17B3C63F2BF58358009533FC /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6382BF58358009533FC /* report.xml */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B3C62D2BF57DB1009533FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B3C6042BF57B1D009533FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B3C60B2BF57B1D009533FC;
+			remoteInfo = SafariOpener;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		17B3C60C2BF57B1D009533FC /* SafariOpener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariOpener.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +42,26 @@
 		17B3C6182BF57B1E009533FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17B3C61B2BF57B1E009533FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17B3C61D2BF57B1E009533FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B3C6272BF57DB1009533FC /* SafariOpenerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariOpenerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B3C6292BF57DB1009533FC /* SafariOpenerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariOpenerUITests.swift; sourceTree = "<group>"; };
+		17B3C62B2BF57DB1009533FC /* SafariOpenerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariOpenerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17B3C6322BF58358009533FC /* report.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = report.html; sourceTree = "<group>"; };
+		17B3C6332BF58358009533FC /* report.junit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.junit; sourceTree = "<group>"; };
+		17B3C6352BF58358009533FC /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		17B3C6362BF58358009533FC /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		17B3C6372BF58358009533FC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		17B3C6382BF58358009533FC /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		17B3C6092BF57B1D009533FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B3C6242BF57DB1009533FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +74,9 @@
 		17B3C6032BF57B1D009533FC = {
 			isa = PBXGroup;
 			children = (
+				17B3C6392BF58358009533FC /* fastlane */,
 				17B3C60E2BF57B1D009533FC /* SafariOpener */,
+				17B3C6282BF57DB1009533FC /* SafariOpenerUITests */,
 				17B3C60D2BF57B1D009533FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				17B3C60C2BF57B1D009533FC /* SafariOpener.app */,
+				17B3C6272BF57DB1009533FC /* SafariOpenerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +102,36 @@
 				17B3C61D2BF57B1E009533FC /* Info.plist */,
 			);
 			path = SafariOpener;
+			sourceTree = "<group>";
+		};
+		17B3C6282BF57DB1009533FC /* SafariOpenerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17B3C6292BF57DB1009533FC /* SafariOpenerUITests.swift */,
+				17B3C62B2BF57DB1009533FC /* SafariOpenerUITestsLaunchTests.swift */,
+			);
+			path = SafariOpenerUITests;
+			sourceTree = "<group>";
+		};
+		17B3C6342BF58358009533FC /* test_output */ = {
+			isa = PBXGroup;
+			children = (
+				17B3C6322BF58358009533FC /* report.html */,
+				17B3C6332BF58358009533FC /* report.junit */,
+			);
+			path = test_output;
+			sourceTree = "<group>";
+		};
+		17B3C6392BF58358009533FC /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				17B3C6342BF58358009533FC /* test_output */,
+				17B3C6352BF58358009533FC /* Appfile */,
+				17B3C6362BF58358009533FC /* Fastfile */,
+				17B3C6372BF58358009533FC /* README.md */,
+				17B3C6382BF58358009533FC /* report.xml */,
+			);
+			path = fastlane;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +154,24 @@
 			productReference = 17B3C60C2BF57B1D009533FC /* SafariOpener.app */;
 			productType = "com.apple.product-type.application";
 		};
+		17B3C6262BF57DB1009533FC /* SafariOpenerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B3C62F2BF57DB1009533FC /* Build configuration list for PBXNativeTarget "SafariOpenerUITests" */;
+			buildPhases = (
+				17B3C6232BF57DB1009533FC /* Sources */,
+				17B3C6242BF57DB1009533FC /* Frameworks */,
+				17B3C6252BF57DB1009533FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B3C62E2BF57DB1009533FC /* PBXTargetDependency */,
+			);
+			name = SafariOpenerUITests;
+			productName = SafariOpenerUITests;
+			productReference = 17B3C6272BF57DB1009533FC /* SafariOpenerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +184,10 @@
 				TargetAttributes = {
 					17B3C60B2BF57B1D009533FC = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					17B3C6262BF57DB1009533FC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 17B3C60B2BF57B1D009533FC;
 					};
 				};
 			};
@@ -116,6 +205,7 @@
 			projectRoot = "";
 			targets = (
 				17B3C60B2BF57B1D009533FC /* SafariOpener */,
+				17B3C6262BF57DB1009533FC /* SafariOpenerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +215,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B3C63F2BF58358009533FC /* report.xml in Resources */,
+				17B3C63C2BF58358009533FC /* Appfile in Resources */,
+				17B3C63D2BF58358009533FC /* Fastfile in Resources */,
 				17B3C6192BF57B1E009533FC /* Assets.xcassets in Resources */,
 				17B3C61C2BF57B1E009533FC /* Base in Resources */,
+				17B3C63B2BF58358009533FC /* report.junit in Resources */,
+				17B3C63A2BF58358009533FC /* report.html in Resources */,
+				17B3C63E2BF58358009533FC /* README.md in Resources */,
 				17B3C6172BF57B1D009533FC /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B3C6252BF57DB1009533FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +247,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		17B3C6232BF57DB1009533FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B3C62A2BF57DB1009533FC /* SafariOpenerUITests.swift in Sources */,
+				17B3C62C2BF57DB1009533FC /* SafariOpenerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B3C62E2BF57DB1009533FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B3C60B2BF57B1D009533FC /* SafariOpener */;
+			targetProxy = 17B3C62D2BF57DB1009533FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		17B3C6152BF57B1D009533FC /* Main.storyboard */ = {
@@ -339,6 +459,38 @@
 			};
 			name = Release;
 		};
+		17B3C6302BF57DB1009533FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jdc.io.SafariOpenerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafariOpener;
+			};
+			name = Debug;
+		};
+		17B3C6312BF57DB1009533FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jdc.io.SafariOpenerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafariOpener;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -356,6 +508,15 @@
 			buildConfigurations = (
 				17B3C6212BF57B1E009533FC /* Debug */,
 				17B3C6222BF57B1E009533FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B3C62F2BF57DB1009533FC /* Build configuration list for PBXNativeTarget "SafariOpenerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B3C6302BF57DB1009533FC /* Debug */,
+				17B3C6312BF57DB1009533FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
