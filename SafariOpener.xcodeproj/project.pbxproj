@@ -15,12 +15,9 @@
 		17B3C61C2BF57B1E009533FC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C61B2BF57B1E009533FC /* Base */; };
 		17B3C62A2BF57DB1009533FC /* SafariOpenerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B3C6292BF57DB1009533FC /* SafariOpenerUITests.swift */; };
 		17B3C62C2BF57DB1009533FC /* SafariOpenerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B3C62B2BF57DB1009533FC /* SafariOpenerUITestsLaunchTests.swift */; };
-		17B3C63A2BF58358009533FC /* report.html in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6322BF58358009533FC /* report.html */; };
-		17B3C63B2BF58358009533FC /* report.junit in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6332BF58358009533FC /* report.junit */; };
 		17B3C63C2BF58358009533FC /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6352BF58358009533FC /* Appfile */; };
 		17B3C63D2BF58358009533FC /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6362BF58358009533FC /* Fastfile */; };
 		17B3C63E2BF58358009533FC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6372BF58358009533FC /* README.md */; };
-		17B3C63F2BF58358009533FC /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = 17B3C6382BF58358009533FC /* report.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,12 +42,9 @@
 		17B3C6272BF57DB1009533FC /* SafariOpenerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariOpenerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B3C6292BF57DB1009533FC /* SafariOpenerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariOpenerUITests.swift; sourceTree = "<group>"; };
 		17B3C62B2BF57DB1009533FC /* SafariOpenerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariOpenerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		17B3C6322BF58358009533FC /* report.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = report.html; sourceTree = "<group>"; };
-		17B3C6332BF58358009533FC /* report.junit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.junit; sourceTree = "<group>"; };
 		17B3C6352BF58358009533FC /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
 		17B3C6362BF58358009533FC /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
 		17B3C6372BF58358009533FC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		17B3C6382BF58358009533FC /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +109,6 @@
 		};
 		17B3C6342BF58358009533FC /* test_output */ = {
 			isa = PBXGroup;
-			children = (
-				17B3C6322BF58358009533FC /* report.html */,
-				17B3C6332BF58358009533FC /* report.junit */,
-			);
 			path = test_output;
 			sourceTree = "<group>";
 		};
@@ -129,7 +119,6 @@
 				17B3C6352BF58358009533FC /* Appfile */,
 				17B3C6362BF58358009533FC /* Fastfile */,
 				17B3C6372BF58358009533FC /* README.md */,
-				17B3C6382BF58358009533FC /* report.xml */,
 			);
 			path = fastlane;
 			sourceTree = "<group>";
@@ -215,13 +204,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17B3C63F2BF58358009533FC /* report.xml in Resources */,
 				17B3C63C2BF58358009533FC /* Appfile in Resources */,
 				17B3C63D2BF58358009533FC /* Fastfile in Resources */,
 				17B3C6192BF57B1E009533FC /* Assets.xcassets in Resources */,
 				17B3C61C2BF57B1E009533FC /* Base in Resources */,
-				17B3C63B2BF58358009533FC /* report.junit in Resources */,
-				17B3C63A2BF58358009533FC /* report.html in Resources */,
 				17B3C63E2BF58358009533FC /* README.md in Resources */,
 				17B3C6172BF57B1D009533FC /* Base in Resources */,
 			);
